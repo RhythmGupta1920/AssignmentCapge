@@ -25,7 +25,7 @@ public class Question2 {
 		
 		try {
 			uinfoMap.put("rhythm", "123");
-			System.out.println("Username " + rhythm + " added successfully.");
+			System.out.println("Username rhythm added successfully.");
 			
 			uinfoMap.put("rhythm", "1234");
 		} catch (UsernameExistsException e) {
